@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+:root {
+  --primarycolor: black;
+  --secondarycolor: rgb(33, 33, 33);
+  --whitetext: #fff;
+  --yellowtext: yellow;
+  --buttonbackcolor: rgb(55, 55, 55);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  background-color: var(--primarycolor);
+  height: 100vh;
+  display: flex;
+}
+
+.card {
+  background-color: var(--secondarycolor);
+  padding: 2.5rem;
+  width: 420px;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.card h1 {
+  font-weight: 600;
+  padding: 0.7rem 0 0.4rem 0;
+  font-size: 2rem;
+  color: var(--whitetext);
+}
+
+.card h3 {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--yellowtext);
+}
+
+.card p {
+  padding-top: 1rem;
+  color: var(--whitetext);
+}
+
+.links {
+  padding-top: 1rem 0;
+}
+
+.link {
+  background-color: var(--buttonbackcolor);
+  padding: 0.9rem;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.link a {
+  text-decoration: none;
+  color: var(--whitetext);
+  font-weight: bold;
+}
+
+.social {
+  margin: 1rem 0;
+}
